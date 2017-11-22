@@ -3,6 +3,7 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'mattn/emmet-vim'
 call vundle#end()
 filetype plugin indent on
 syntax on
@@ -15,3 +16,5 @@ set ts=4
 set expandtab
 autocmd FileType c,php,markdown set sw=4 ts=4
 autocmd FileType vim,javascript,html,css set sw=2 ts=2
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall

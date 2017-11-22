@@ -7,8 +7,6 @@ molokai 主题不变, 只是添加了自己的 vimrc 以及 makefile 来实现 a
 
 如: .vim_20171116_1508 .vimrc_20171116_1508
 
-自动安装 vundle.vim 插件管理
-
 
 ## Installation
 
