@@ -10,6 +10,5 @@ ifneq ("$(wildcard ~/.vimrc)","")
 endif
 	mkdir -p ~/.vim/colors
 	git clone --depth=1 https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-	git clone --depth=1 https://github.com/rust-lang/rust.vim.git ~/.vim/bundle/rust.vim
 	cp ./colors/molokai.vim ~/.vim/colors/
 	cp ./vimrc ~/.vimrc	
