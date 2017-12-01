@@ -13,8 +13,10 @@ hi Normal ctermfg=252 ctermbg=none
 set mouse=a
 set number
 set ruler
-set ts=4
+set tabstop=4
+set shiftwidth=4
 set expandtab
+set autoindent
 autocmd FileType c,php,markdown set sw=4 ts=4
 autocmd FileType vim,javascript,html,css set sw=2 ts=2
 let g:user_emmet_install_global = 0
