@@ -9,7 +9,7 @@ filetype plugin indent on
 syntax on
 colorscheme molokai
 set t_Co=256
-hi Normal ctermfg=256 ctermbg=none
+hi Normal ctermfg=252 ctermbg=none
 set mouse=a
 set number
 set ruler
