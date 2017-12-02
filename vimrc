@@ -17,7 +17,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set autoindent
-autocmd FileType c,php,markdown set sw=4 ts=4
+autocmd FileType c,php,markdown,makefile set sw=4 ts=4
 autocmd FileType vim,javascript,html,css set sw=2 ts=2
 let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
